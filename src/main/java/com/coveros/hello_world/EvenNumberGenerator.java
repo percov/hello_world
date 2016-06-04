@@ -2,6 +2,8 @@ package com.coveros.hello_world;
 
 import java.util.Random;
 
+// comment
+
 public class EvenNumberGenerator {
 	public static int generateRandomEven(){
 		Random randomGenerator = new Random();
