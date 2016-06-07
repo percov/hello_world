@@ -1,7 +1,5 @@
 package com.coveros.hello_world;
 
-// Develop
-// Hi 
 import java.util.Random;
 
 public class EvenNumberGenerator {
@@ -16,7 +14,7 @@ public class EvenNumberGenerator {
 	public static int generateRandomOdd(){
 		Random randomGenerator = new Random();
 		int result = randomGenerator.nextInt();
-		
+
 		if (result%2!=0){
 			result++;
 		}
